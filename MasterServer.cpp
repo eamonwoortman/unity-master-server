@@ -20,6 +20,7 @@
 #include <windows.h>
 #else
 #include <stdlib.h>
+#include <unistd.h>
 #endif
 
 LightweightDatabaseServer databaseServer;
