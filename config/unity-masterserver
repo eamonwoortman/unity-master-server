@@ -35,7 +35,7 @@ case "$1" in
 	fi
 
 	echo -n "Starting $BINARYNAME: "
-	if [ -z ${USERNAME+x} ]
+	if [[ $USERNAME ]]
 	then
 
 	        su $USERNAME -c "cd ${HOMEDIR} && ${COMMAND}"
